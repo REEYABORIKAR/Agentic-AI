@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 
+      POSTGRES_DB: postgres
+    ports:
+      - "5442:5432"
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+
+# docker --version
+#  docker compose up -d
+#  docker ps
+=======
+>>>>>>> dc791605a8d2ce2893c324c1f625d690649ad4da
+=======
+>>>>>>> dc791605a8d2ce2893c324c1f625d690649ad4da
