@@ -69,106 +69,193 @@ Agentic-AI/
 ├── 5.ChatBot/
 ├── 6.Memory/
 ├── 7_MCP/
-├── 8_Planning Agents/ (Blog Writing Agent)
+├── 8_Planning Agents/
 ├── requirements.txt
 ├── .env
 ├── .gitignore
 └── README.md
+---
 
-🚀 Getting Started
-1️⃣ Clone the Repository
-Bash
-git clone [https://github.com/REEYABORIKAR/Agentic-AI.git](https://github.com/REEYABORIKAR/Agentic-AI.git)
+# 📂 Project Structure
+
+```text
+Agentic-AI/
+│
+├── agents/
+├── notebooks/
+├── src/
+├── data/
+├── app.py
+├── requirements.txt
+├── .env
+├── .gitignore
+└── README.md
+```
+
+---
+
+# 🚀 Getting Started
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/REEYABORIKAR/Agentic-AI.git
+
 cd Agentic-AI
-2️⃣ Create Virtual Environment
-Windows
-Bash
+```
+
+---
+
+## 2️⃣ Create Virtual Environment
+
+### Windows
+
+```bash
 python -m venv venv
+
 venv\Scripts\activate
-Linux / macOS
-Bash
+```
+
+### Linux / macOS
+
+```bash
 python3 -m venv venv
+
 source venv/bin/activate
-3️⃣ Install Dependencies
-Bash
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-4️⃣ Configure Environment Variables
-Create a .env file in the root directory.
+```
+
+---
+
+## 4️⃣ Configure Environment Variables
+
+Create a `.env` file.
 
 Example:
 
-Code snippet
-GROQ_API_KEY=your_groq_api_key
-GOOGLE_API_KEY=your_google_api_key
-TAVILY_API_KEY=your_tavily_api_key
-5️⃣ Run the Projects
-Navigate into any specific directory (e.g., 5.ChatBot) and run the application:
+```env
+GROQ_API_KEY=your_api_key
+GOOGLE_API_KEY=your_api_key
+```
 
-Bash
+---
+
+## 5️⃣ Run the Project
+
+```bash
+python app.py
+```
+
+or
+
+```bash
 streamlit run app.py
-(Or the corresponding python backend file).
+```
 
-📚 Topics Covered
-AI Agents & Agentic AI Workflows
+*(Depending on the project you're running.)*
 
-LangGraph State Machines
+---
 
-LangChain Tool Integration
+# 📚 Topics Covered
 
-Prompt Engineering & Chaining
+* AI Agents
+* Agentic AI
+* LangGraph
+* LangChain
+* Prompt Engineering
+* RAG
+* Vector Databases
+* Embeddings
+* Memory
+* Tool Calling
+* Multi-Agent Systems
+* PDF Chatbots
+* Document QA
+* LLM Applications
+* AI Automation
 
-Retrieval-Augmented Generation (RAG)
+---
 
-Vector Databases & Embeddings
+# 📸 Project Demo
 
-Short-Term and Long-Term Memory
+> Add screenshots or GIFs here.
 
-Human-in-the-Loop (HITL) Workflows
+Example:
 
-Multi-Agent Systems & Planning Agents
+```
+assets/
+    home.png
+    chatbot.gif
+```
 
-PDF Chatbots & Document QA
+Then display them using:
 
-🎯 Learning Objectives
+```markdown
+![Home](assets/home.png)
+```
+
+---
+
+# 🎯 Learning Objectives
+
 This repository helps you understand:
 
-Building autonomous AI agents using state-based reasoning
+* Building autonomous AI agents
+* Creating intelligent workflows
+* Implementing Retrieval-Augmented Generation
+* Working with LangGraph state machines
+* Integrating external tools
+* Building AI-powered applications
+* Deploying production-ready LLM apps
 
-Creating sequential, parallel, conditional, and iterative workflows
+---
 
-Implementing Retrieval-Augmented Generation (RAG)
+# 📦 Requirements
 
-Working with LangGraph checkpointers and persistence
+* Python 3.11+
+* Git
+* Groq API Key
+* Google API Key (if required)
 
-Integrating external tools (e.g., Web Search, Custom Python Tools)
+---
 
-Deploying interactive AI interfaces using Streamlit
+# 🤝 Contributing
 
-📦 Requirements
-Python 3.11+
+Contributions are welcome.
 
-Git
+1. Fork the repository
 
-Groq API Key
+2. Create your feature branch
 
-Google API Key (optional / for embeddings)
+```bash
+git checkout -b feature-name
+```
 
-Tavily API Key (optional / for search)
+3. Commit your changes
 
-🤝 Contributing
-Contributions are welcome!
+```bash
+git commit -m "Added new feature"
+```
 
-Fork the repository
+4. Push the branch
 
-Create your feature branch (git checkout -b feature-name)
+```bash
+git push origin feature-name
+```
 
-Commit your changes (git commit -m "Added new feature")
+5. Open a Pull Request
 
-Push the branch (git push origin feature-name)
+---
 
-Open a Pull Request
+# ⭐ Support
 
-⭐ Support
 If you found this repository useful:
 
 ⭐ Star the repository
@@ -179,12 +266,28 @@ If you found this repository useful:
 
 📢 Share it with others
 
-👩‍💻 Author
-Reeya Borikar
+---
 
-GitHub: REEYABORIKAR
+# 👩‍💻 Author
 
-LinkedIn: Reeya Borikar
+**Reeya Borikar**
 
-📄 License
-This project is licensed under the MIT License.
+* GitHub: https://github.com/REEYABORIKAR
+* LinkedIn: https://www.linkedin.com/in/reeyaborikar/
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<p align="center">
+
+### ⭐ If you like this project, don't forget to star the repository ⭐
+
+Made with ❤️ using Python, LangChain, LangGraph, and AI.
+
+</p>
+>>>>>>> 540904f (Add updated frontend and update README)
