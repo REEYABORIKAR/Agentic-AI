@@ -69,7 +69,7 @@ Agentic-AI/
 ├── 5.ChatBot/
 ├── 6.Memory/
 ├── 7_MCP/
-├── 8_Planning Agents/
+├── 8_Planning Agents(Blog Writing Agent)/
 ├── requirements.txt
 ├── .env
 ├── .gitignore
@@ -277,17 +277,4 @@ If you found this repository useful:
 
 ---
 
-# 📄 License
 
-This project is licensed under the **MIT License**.
-
----
-
-<p align="center">
-
-### ⭐ If you like this project, don't forget to star the repository ⭐
-
-Made with ❤️ using Python, LangChain, LangGraph, and AI.
-
-</p>
->>>>>>> 540904f (Add updated frontend and update README)
